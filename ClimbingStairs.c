@@ -1,6 +1,7 @@
+int dp[46];
+
 int climbStairs(int n)
 {
-    int dp[46];
     if (n <= 2)
         return n;
 
